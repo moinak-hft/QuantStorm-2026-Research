@@ -1,0 +1,111 @@
+{
+  "seed": 7,
+  "load_and_reset": [
+    {
+      "policy": "never",
+      "path": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_never.py",
+      "loaded_class": "Bot",
+      "loaded_name": "never",
+      "reset_ok": true,
+      "reset_error": "",
+      "bid_probe": {},
+      "use_transform_probe": {
+        "flat_k0": false,
+        "decisive_k4": false
+      }
+    },
+    {
+      "policy": "always",
+      "path": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_always.py",
+      "loaded_class": "Bot",
+      "loaded_name": "always",
+      "reset_ok": true,
+      "reset_error": "",
+      "bid_probe": {
+        "TRANSFORM": 12
+      },
+      "use_transform_probe": {
+        "flat_k0": true,
+        "decisive_k4": true
+      }
+    },
+    {
+      "policy": "denial_only",
+      "path": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_denial_only.py",
+      "loaded_class": "Bot",
+      "loaded_name": "denial_only",
+      "reset_ok": true,
+      "reset_error": "",
+      "bid_probe": {},
+      "use_transform_probe": {
+        "flat_k0": true,
+        "decisive_k4": false
+      }
+    },
+    {
+      "policy": "flat_only",
+      "path": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_flat_only.py",
+      "loaded_class": "Bot",
+      "loaded_name": "flat_only",
+      "reset_ok": true,
+      "reset_error": "",
+      "bid_probe": {
+        "TRANSFORM": 11
+      },
+      "use_transform_probe": {
+        "flat_k0": true,
+        "decisive_k4": false
+      }
+    },
+    {
+      "policy": "exercise_plus_denial",
+      "path": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_exercise_plus_denial.py",
+      "loaded_class": "Bot",
+      "loaded_name": "exercise_plus_denial",
+      "reset_ok": true,
+      "reset_error": "",
+      "bid_probe": {
+        "TRANSFORM": 11
+      },
+      "use_transform_probe": {
+        "flat_k0": true,
+        "decisive_k4": false
+      }
+    },
+    {
+      "policy": "state_cond",
+      "path": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_state_cond.py",
+      "loaded_class": "Bot",
+      "loaded_name": "state_cond",
+      "reset_ok": true,
+      "reset_error": "",
+      "bid_probe": {
+        "TRANSFORM": 11
+      },
+      "use_transform_probe": {
+        "flat_k0": true,
+        "decisive_k4": false
+      }
+    }
+  ],
+  "never_vs_always": {
+    "bot_a": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_never.py",
+    "bot_b": "C:\\Users\\MOINAK\\Desktop\\quantstorm-ps\\research_bots\\transform_always.py",
+    "n_seeds": 1,
+    "mean": 0.0,
+    "std": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "draws": 1,
+    "worst": 0.0,
+    "best": 0.0,
+    "direct_mean": -4.402178478369024,
+    "mirror_mean": 4.402178478369024,
+    "direct_std": 0.0,
+    "mirror_std": 0.0,
+    "stderr": 0.0,
+    "scores": [
+      0.0
+    ]
+  }
+}
