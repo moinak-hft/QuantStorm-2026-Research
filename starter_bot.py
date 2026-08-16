@@ -1,6 +1,6 @@
-# Name: [Your Name Here]
-# College: [Your College Here]
-# Roll Number: [Your Roll Number Here]
+# Name: Moinak Goswami
+# College: IIT Ropar
+# Roll Number: 2024CSB1225
 
 """
 starter_bot.py — Divided Oracle: Strategy Template
